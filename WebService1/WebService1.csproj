@@ -64,6 +64,7 @@
     <Compile Include="Controlador\Conexion.cs" />
     <Compile Include="Controlador\ConexionCliente.cs" />
     <Compile Include="Controlador\DAO_Banco.cs" />
+    <Compile Include="Controlador\DAO_Bonificacion.cs" />
     <Compile Include="Controlador\DAO_Canal.cs" />
     <Compile Include="Controlador\DAO_Cliente.cs" />
     <Compile Include="Controlador\DAO_Cobranza.cs" />

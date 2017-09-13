@@ -109,6 +109,12 @@ namespace WebService1
         }
 
         [WebMethod]
+        public string obtenerBonificacion(string coduser)
+        {
+            return new DAO_Bonificacion().obtenerBonificacion(coduser);
+        }
+
+        [WebMethod]
         public string guardarPedido(string cadena)
         {
             return new Pedido().insertarPedido(cadena);
