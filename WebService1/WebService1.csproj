@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -82,6 +83,7 @@
     <Compile Include="Controlador\ProcedimientosCliente.cs" />
     <Compile Include="Modelo\Cobranza.cs" />
     <Compile Include="Modelo\DB_Banco.cs" />
+    <Compile Include="Modelo\DB_Bonificacion.cs" />
     <Compile Include="Modelo\DB_Canal.cs" />
     <Compile Include="Modelo\DB_Cliente.cs" />
     <Compile Include="Modelo\DB_Cobranza.cs" />
