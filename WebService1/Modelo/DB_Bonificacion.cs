@@ -27,8 +27,8 @@ namespace WebService1.Modelo
         public string CodEntrada;
         public int TipoUnidadEntrada;
         public int CantidadCondicion;
-        public double MontoMinimo;
-        public double MontoMaximo;
-        public double Monto;
+        public decimal MontoMinimo;
+        public decimal MontoMaximo;
+        public decimal Monto;
     }
 }

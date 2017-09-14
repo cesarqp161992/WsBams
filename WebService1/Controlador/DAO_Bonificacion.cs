@@ -40,7 +40,7 @@ namespace WebService1.Controlador
                                 CodAlm = sqlDataReader.GetString(7),
                                 ItemSalida = sqlDataReader.GetInt32(8),
                                 CodSalida = sqlDataReader.GetString(9),
-                                TipoUnidadSalida = sqlDataReader.GetInt32(10)/*,
+                                TipoUnidadSalida = sqlDataReader.GetInt32(10),
                                 CantidadPromocion = sqlDataReader.GetInt32(11),
                                 MaximoPedido = sqlDataReader.GetInt32(12),
                                 GrupoCondicion = sqlDataReader.GetInt32(13),
@@ -50,9 +50,9 @@ namespace WebService1.Controlador
                                 CodEntrada = sqlDataReader.GetString(17),
                                 TipoUnidadEntrada = sqlDataReader.GetInt32(18),
                                 CantidadCondicion = sqlDataReader.GetInt32(19),
-                                MontoMinimo = sqlDataReader.GetDouble(20),
-                                MontoMaximo = sqlDataReader.GetDouble(21),
-                                Monto = sqlDataReader.GetDouble(22)*/
+                                MontoMinimo = sqlDataReader.GetDecimal(20),
+                                MontoMaximo = sqlDataReader.GetDecimal(21),
+                                Monto = sqlDataReader.GetDecimal(22)
                             });
                         return scriptSerializer.Serialize((object)dbBnfList);
                     }
