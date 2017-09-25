@@ -35,11 +35,13 @@ namespace WebService1.Controlador
                                 codcli = sqlDataReader.GetString(2),
                                 coddomic = sqlDataReader.GetString(3),
                                 codven = sqlDataReader.GetString(4),
-                                codmon = sqlDataReader.GetString(5),
-                                importe = sqlDataReader.GetString(6),
-                                saldo = sqlDataReader.GetString(7),
-                                fecemision = sqlDataReader.GetString(8),
-                                fecvcto = sqlDataReader.GetString(9)
+                                sersun = sqlDataReader.GetString(5),
+                                numsun = sqlDataReader.GetString(6),
+                                codmon = sqlDataReader.GetString(7),
+                                importe = sqlDataReader.GetString(8),
+                                saldo = sqlDataReader.GetString(9),
+                                fecemision = sqlDataReader.GetString(10),
+                                fecvcto = sqlDataReader.GetString(11)
                             });
                         return scriptSerializer.Serialize((object)cobranzaList);
                     }

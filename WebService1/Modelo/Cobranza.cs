@@ -12,6 +12,8 @@ namespace WebService1.Modelo
         public string codcli;
         public string coddomic;
         public string codven;
+        public string sersun;
+        public string numsun;
         public string codmon;
         public string importe;
         public string saldo;
