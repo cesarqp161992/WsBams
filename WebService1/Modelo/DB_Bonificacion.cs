@@ -7,6 +7,7 @@ namespace WebService1.Modelo
 {
     public class DB_Bonificacion
     {
+        public int Id;
         public string FecInicio;
         public string FecFinal;
         public int General;
@@ -30,5 +31,6 @@ namespace WebService1.Modelo
         public decimal MontoMinimo;
         public decimal MontoMaximo;
         public decimal Monto;
+        public int Itemgrupocondicion;
     }
 }
