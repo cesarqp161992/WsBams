@@ -17,5 +17,7 @@ namespace WebService1.Modelo
         public string porpcn;
         public string tasisc;
         public string cndvta;
+        public string codfam;
+        public string codsubfam;
     }
 }

@@ -39,7 +39,9 @@ namespace WebService1.Controlador
                                 estado = sqlDataReader.GetString(6),
                                 porpcn = sqlDataReader.GetString(7),
                                 tasisc = sqlDataReader.GetString(8),
-                                cndvta = sqlDataReader.GetString(9)
+                                cndvta = sqlDataReader.GetString(9),
+                                codfam = sqlDataReader.GetString(10),
+                                codsubfam = sqlDataReader.GetString(11)
                             });
                         return scriptSerializer.Serialize((object)dbProductoList);
                     }
