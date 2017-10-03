@@ -69,6 +69,7 @@
     <Compile Include="Controlador\DAO_Cliente.cs" />
     <Compile Include="Controlador\DAO_Cobranza.cs" />
     <Compile Include="Controlador\DAO_Empresa.cs" />
+    <Compile Include="Controlador\DAO_Familia.cs" />
     <Compile Include="Controlador\DAO_FormaPago.cs" />
     <Compile Include="Controlador\DAO_Impuesto.cs" />
     <Compile Include="Controlador\DAO_Moneda.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Modelo\DB_DevolucionCabecera.cs" />
     <Compile Include="Modelo\DB_DevolucionDetalle.cs" />
     <Compile Include="Modelo\DB_Empresa.cs" />
+    <Compile Include="Modelo\DB_Familia.cs" />
     <Compile Include="Modelo\DB_FormaPago.cs" />
     <Compile Include="Modelo\DB_GestionResponse.cs" />
     <Compile Include="Modelo\DB_Impuesto.cs" />

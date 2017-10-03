@@ -91,6 +91,12 @@ namespace WebService1
         }
 
         [WebMethod]
+        public string obtenerFamilia(string coduser)
+        {
+            return new DAO_Familia().obtenerFamilia(coduser);
+        }
+
+        [WebMethod]
         public string obtenerTerminoPago(string coduser)
         {
             return new DAO_TerminoPago().obtenerTerminoPago();
